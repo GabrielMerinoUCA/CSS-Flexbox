@@ -1,5 +1,6 @@
 .flexcontainer {
     display: flex;
+    flex-direction: column-reverse;
 }
 .box1{
     background-color: darkgreen;
