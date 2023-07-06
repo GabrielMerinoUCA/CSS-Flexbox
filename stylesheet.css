@@ -1,24 +1,28 @@
+
+body {
+    margin: 0;
+}
 .flexcontainer {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
 }
 .box1{
     background-color: darkgreen;
     text-align: center;
     color: white;
-    width: 100px;
     height: 100px;
-    margin: 10px;
+    width: 100px;
     padding: 5px;
+    flex-grow: 1;
 }
 .box2{
     background-color: blue;
     text-align: center;
     color: white;
-    width: 100px;
     height: 100px;
-    margin: 10px;
+    width: 100px;
     padding: 5px;
+    flex-grow: 1;
 }
 .box3{
     background-color: purple;
@@ -26,17 +30,15 @@
     color: white;
     width: 100px;
     height: 100px;
-    margin: 10px;
     padding: 5px;
-    order: -1000;
+    flex-grow: 1;
 }
 .box4{
     background-color: black;
     text-align: center;
     color: white;
-    width: 100px;
     height: 100px;
-    margin: 10px;
+    width: 100px;
     padding: 5px;
-    order: -1;
+    flex-grow: 2;
 }
