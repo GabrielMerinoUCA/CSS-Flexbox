@@ -12,7 +12,7 @@ body {
     text-align: center;
     color: white;
     height: 100px;
-    width: 100px;
+    flex-basis: 200px;
     padding: 5px;
     margin: 10px;
 }
