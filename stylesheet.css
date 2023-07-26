@@ -1,45 +1,38 @@
 body {
     margin: 0;
 }
+
+.body{
+    background-color: black;
+}
+
 .flexcontainer {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
 }
 .box1{
     background-color: darkgreen;
     text-align: center;
     color: white;
+    width: 100px;
     height: 100px;
-    flex-basis: 200px;
     padding: 5px;
     margin: 10px;
+    flex-grow: 1;
+    border-radius: 5px;
+    border:white 1px solid;
 }
+
 .box2{
-    background-color: blue;
-    text-align: center;
-    color: white;
-    height: 100px;
-    width: 100px;
-    padding: 5px;
-    margin: 10px;
-}
-.box3{
-    background-color: purple;
+    background-color: darkviolet;
     text-align: center;
     color: white;
     width: 100px;
     height: 100px;
     padding: 5px;
     margin: 10px;
-}
-.box4{
-    background-color: black;
-    text-align: center;
-    color: white;
-    height: 100px;
-    width: 100px;
-    padding: 5px;
-    margin: 10px;
+    border-radius: 5px;
+    border:white 1px solid;
+
 }
