@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 5px;
 }
 
 .body{
@@ -34,5 +34,10 @@ body {
     margin: 10px;
     border-radius: 5px;
     border:white 1px solid;
+}
 
+.linebreak{
+    background-color: darkgrey;
+    height: 2px;
+    flex-basis: 100%;
 }
