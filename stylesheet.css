@@ -9,8 +9,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
 }
-.box1{
-    background-color: darkgreen;
+.largebox{
     text-align: center;
     color: white;
     width: 100px;
@@ -21,8 +20,7 @@ body {
     border-radius: 5px;
     border:white 1px solid;
 }
-.box2{
-    background-color: darkviolet;
+.smallbox{
     text-align: center;
     color: white;
     width: 100px;
@@ -31,63 +29,6 @@ body {
     margin: 10px;
     border-radius: 5px;
     border:white 1px solid;
-}
-.box3{
-    background-color: darkslategrey;
-    text-align: center;
-    color: white;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 5px;
-    border:white 1px solid;
-}
-.box4{
-    background-color: darkslateblue;
-    text-align: center;
-    color: white;
-    height: 100px;
-    width: 100px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 5px;
-    border:white 1px solid;
-    flex-grow: 1;
-}
-.box5{
-    background-color: darkmagenta;
-    text-align: center;
-    color: white;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 5px;
-    border:white 1px solid;
-}
-.box6{
-    background-color: brown;
-    text-align: center;
-    color: white;
-    height: 100px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 5px;
-    border:white 1px solid;
-    flex-grow: 1;
-}
-.box7{
-    background-color: forestgreen;
-    text-align: center;
-    color: white;
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 5px;
-    border:white 1px solid;
-    flex-grow: 1;
 }
 .linebreak{
     background-color: darkgrey;
